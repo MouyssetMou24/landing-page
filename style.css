@@ -1,0 +1,133 @@
+
+html, body{ 
+  text-align: center;
+  color: #F39C12;
+  border: 1px #EBF5FB;
+  border-radius: 7px;
+  background-color: #F2F3F4 ; 
+;
+ }
+
+ h1{ 
+  border: 1px #EBEDEF;
+  margin: 10px;
+  border-radius: 7px;
+  background-color: #FDFEFE;
+  box-shadow:5px 5px 6px #F2F3F4 ;
+
+  }
+
+div{ 
+  border: 1px #EBF5FB;
+box-shadow:1px 1px 1px #F2F3F4 ;
+
+ }
+
+img{ 
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+ }
+
+.container{ 
+    box-sizing: content-box;
+    width: calc(100% - 90px);
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+
+ }
+
+.headerflex{ 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ }
+
+.header{ 
+    position: relative;
+    z-index: 2000;
+     }
+
+.headerleft{ 
+    justify-content: flex-start;
+    margin-left: -13px;
+    margin-right: -13px;
+ }
+
+ .headerright{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+.headercontainer{ 
+position: fixed;
+top: 0;
+width: 100%;
+min-height: 100px;
+padding-top: 50px;
+padding-bottom: 20px;
+background-color: #f6f3f0;
+
+ }
+
+.banner{ 
+background-image: url("images/banner1.jpeg");
+height:70vh ;
+background-size:cover ;
+background-position: center;
+display: fleex;
+ }
+
+.g-information{ 
+   border: 1px;
+   background-color: ;
+
+ }
+
+.cards{ 
+  border: 1px;
+  background-color: ;
+ }
+
+.adoption{ 
+  border: 1px;
+  background-image: ;
+  }
+
+.pet{ 
+    border: 1px;
+    background-image: ;
+
+
+   }
+
+.money{ 
+    border: 1px;
+    background-color: ;
+
+ }
+
+.success{ 
+    border: 1px;
+    background-color: ;
+ }
+
+.story{ 
+    border: 1px;
+    background-image: ;
+
+ }
+
+.contact{ 
+    border: 1px;
+    background-image: ;
+
+ }
+
